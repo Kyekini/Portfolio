@@ -1,0 +1,76 @@
+
+.projects-img {
+  height: 250px;
+  width: 350px;
+  margin-right: -950px;
+  margin-top: -60px;
+  object-fit: cover;
+  border-radius: 7px;
+  border-style: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.projects-img:hover {
+  color: white;
+  transition: background-color 1s,
+    color 1s;
+  box-shadow: 0px 0px 20px white;
+}
+
+.projects {
+  margin-left: 950px;
+  margin-top: -400px;
+  white-space: nowrap;
+  font-size: 20px;
+  margin-bottom: 90px;
+  display: inline-block;
+}
+
+.intro-button {
+  background-color: rgb(39, 37, 37);
+}
+
+.bottom-sec:hover {
+  color: white;
+  transition: background-color 1s,
+    color 1s;
+  box-shadow: 0px 0px 20px white;
+}
+
+.intro2 {
+  margin-top: -40px;
+  border: 3px solid white;
+  position: absolute;
+  display: flex;
+  padding-right: 363.4px;
+
+}
+
+.test {
+  list-style: none;
+  display: inline-block;
+  width: 442px;
+  border: 2px solid white;
+  padding-left: 90px;
+  padding-right: -90px;
+  margin: 0px;
+
+}
+
+.simp {
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.simp1 {
+  color: aliceblue;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.simp2 {
+  color: aliceblue;
+  margin-top: 10px;
+  font-size: 15px;
+}

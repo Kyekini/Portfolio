@@ -1,0 +1,66 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 100px;
+}
+.left-section {
+    width: 300px;
+    padding-top: 20px;
+    
+}
+.middle-section {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 35px;
+    margin-left: 70px;
+}
+.right-section {
+    width: 190px;
+    padding-top: 20px;  
+    display: flex;
+}
+
+.title-name {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+.linkedin-logo {
+    height: 30px;
+    width: 25px;
+    border-radius: 5px;
+    color: white;
+    border-style: none;   
+    cursor: pointer;
+    border-width: 1px;
+    margin-right: 30px;
+}
+.linkedin-logo:hover {
+    background-color: rgb(10, 102, 194); 
+}
+
+.github-logo {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin-right: 30px;
+    background-color: rgb(39, 37, 37);
+}
+.github-logo:hover {
+    background-color: rgb(252, 252, 252);
+}
+
+.mail-logo {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;   
+    background-color: rgb(39, 37, 37);
+}
+.mail-logo:hover {
+    background-color: rgb(197, 26, 35);
+}

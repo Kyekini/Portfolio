@@ -1,0 +1,19 @@
+.certificates-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-btn {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px
+}
+
+.view-btn:hover {
+  background-color: rgba(17, 206, 143, 0.815);
+  color: white;
+  transition: background-color 0.3s;
+  box-shadow: 0px 0px 20px white;
+  border: white
+}
